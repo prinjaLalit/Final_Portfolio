@@ -15,7 +15,8 @@ import Intro from './components/Intro/Intro.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
-      <Route path='home' element={<Intro />} />
+
+      <Route index element={<Intro />} />
       <Route path='skillset' element={<Skillset />} />
       <Route path='workex' element={<Workex />} />
       <Route path='contact' element={<Contact />} />
