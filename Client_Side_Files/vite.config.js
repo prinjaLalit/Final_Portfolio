@@ -12,7 +12,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  root: 'Client_Side_Files',  // Ensure correct project root
+  root: '.',  // Ensure correct project root
   build: {
     outDir: 'dist',
     emptyOutDir: true,
