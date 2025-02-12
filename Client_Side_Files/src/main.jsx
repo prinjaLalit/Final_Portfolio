@@ -17,6 +17,7 @@ const router = createBrowserRouter(
     <Route path='/' element={<Layout />}>
 
       <Route index element={<Intro />} />
+      <Route path='home' element={<Intro />} />
       <Route path='skillset' element={<Skillset />} />
       <Route path='workex' element={<Workex />} />
       <Route path='contact' element={<Contact />} />
